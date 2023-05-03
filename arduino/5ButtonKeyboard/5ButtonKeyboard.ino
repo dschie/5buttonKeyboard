@@ -4,7 +4,7 @@
 #define debounceDelay 20
 
 uint8_t keys[keyCount] = {'a', 'b', 'c', 'd', 'e'};
-int pins[keyCount] = {2,3,4,5,6};
+int pins[keyCount] = {2,3,4,5,7}; // accidently ripped of the pad of pin 6..
 bool down[keyCount] = {false,false,false,false};
 unsigned long lastChange[keyCount] = {0,0,0,0,0};
 void setup() {
